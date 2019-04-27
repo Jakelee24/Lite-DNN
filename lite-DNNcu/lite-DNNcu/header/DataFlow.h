@@ -31,6 +31,7 @@ public:
 class DataFlow
 {
 public:
+	DataFlow();
 	DataFlow( const DataSize _size );
 	virtual ~DataFlow();
 public:

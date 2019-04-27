@@ -81,7 +81,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataFlow.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="LossFunction.h" />
     <ClInclude Include="Network.h" />
+    <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="ParamData.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataFlow.cpp" />
