@@ -1,6 +1,6 @@
 # lite-DNN
 
-### Current project status:** Architecturing....**
+### Current project status: Architecturing....
 
 ## Architecture
 ![](https://i.imgur.com/LPDsPEP.jpg)
