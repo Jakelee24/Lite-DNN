@@ -80,16 +80,22 @@
     <CudaCompile Include="kernel.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DataFlow.h" />
-    <ClInclude Include="Layer.h" />
-    <ClInclude Include="LossFunction.h" />
-    <ClInclude Include="Network.h" />
-    <ClInclude Include="Optimizer.h" />
-    <ClInclude Include="ParamData.h" />
+    <ClInclude Include="header\ConvLayer.h" />
+    <ClInclude Include="header\DataFlow.h" />
+    <ClInclude Include="header\DropoutLayer.h" />
+    <ClInclude Include="header\Layer.h" />
+    <ClInclude Include="header\LossFunction.h" />
+    <ClInclude Include="header\Network.h" />
+    <ClInclude Include="header\Optimizer.h" />
+    <ClInclude Include="header\ParamData.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DataFlow.cpp" />
-    <ClCompile Include="Network.cpp" />
+    <ClCompile Include="src\DataFlow.cpp" />
+    <ClCompile Include="src\Network.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
