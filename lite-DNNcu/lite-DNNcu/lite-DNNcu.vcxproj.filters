@@ -32,6 +32,7 @@
     </ClInclude>
     <ClInclude Include="header\ConvLayer.h" />
     <ClInclude Include="header\DropoutLayer.h" />
+    <ClInclude Include="header\FullconnectLayer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\DataFlow.cpp">
